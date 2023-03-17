@@ -16,7 +16,7 @@
 </br>
 </br>
 <h1>Métodos</h1>
-<sub><strong>predict(inputs)</strong>
+<h3>predict(inputs)</h3>
 O método predict recebe um vetor de entrada inputs e retorna a classe prevista pelo Perceptron. A classe prevista é calculada pela soma ponderada dos pesos associados a cada entrada e comparada a um limite, que é o bias. A função de ativação utilizada é a função degrau, que retorna 1 se o limite é ultrapassado e 0 caso contrário.</sub>
 </br></br>
 <p>Exemplo: 
@@ -27,11 +27,7 @@ O método predict recebe um vetor de entrada inputs e retorna a classe prevista 
 <h3>train(inputs, label)</h3>
 <sub>O método train é responsável por atualizar os pesos do Perceptron. Recebe como argumento um vetor de entrada inputs e a classe real associada a esta entrada label. O erro é calculado como a diferença entre a classe real e a prevista. Os pesos são atualizados proporcionalmente ao erro e à taxa de aprendizado.</sub>
 </br></br>
-<p>Exemplo:
-  <strong>
-<sub>
-  <p>const inputs = [0, 1, 0.5, 1.5];</p></sub>
-    <sub>  <p>const label = 1;</p></sub>
-<sub>  <p>perceptron.train(inputs, label);</p></sub>
-</strong>
-</p>
+<p>Exemplo:</p>
+<sub><p>const inputs = [0, 1, 0.5, 1.5];</p></sub>
+<sub><p>const label = 1;</p></sub>
+<sub><p>perceptron.train(inputs, label);</p></sub>
