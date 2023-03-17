@@ -17,7 +17,8 @@
 <sub><strong>predict(inputs)</strong>
 O método predict recebe um vetor de entrada inputs e retorna a classe prevista pelo Perceptron. A classe prevista é calculada pela soma ponderada dos pesos associados a cada entrada e comparada a um limite, que é o bias. A função de ativação utilizada é a função degrau, que retorna 1 se o limite é ultrapassado e 0 caso contrário.</sub>
 <p>Exemplo: 
-<strong>const inputs = [0, 1, 0.5, 1.5];
-const prediction = perceptron.predict(inputs);</strong></p>
+<strong>
+<p><sub>const inputs = [0, 1, 0.5, 1.5];</sub></p>
+<p><sub>const prediction = perceptron.predict(inputs);</sub></strong></p></p>
 </br>
 </br>
