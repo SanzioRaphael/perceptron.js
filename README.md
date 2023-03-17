@@ -26,7 +26,7 @@ O método predict recebe um vetor de entrada inputs e retorna a classe prevista 
 </br>
 <h3>train(inputs, label)</h3>
 <sub>O método train é responsável por atualizar os pesos do Perceptron. Recebe como argumento um vetor de entrada inputs e a classe real associada a esta entrada label. O erro é calculado como a diferença entre a classe real e a prevista. Os pesos são atualizados proporcionalmente ao erro e à taxa de aprendizado.</sub>
-</br>
+</br></br>
 <p>Exemplo:
   <strong>
 <sub>
