@@ -1,3 +1,5 @@
+CDN: https://cdn.jsdelivr.net/gh/SanzioRaphael/perceptron.js@b694883851fb2b64a579d34d8c9f6d6777aa79d4/perceptron.min.js
+</br></br>
 # perceptron.js
 </br>
 <h1>Introdução</h1>
