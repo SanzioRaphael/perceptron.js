@@ -10,7 +10,7 @@
 </br>
 <h1>Utilização</h1>
 <sub>Para começar a utilizar a biblioteca, você deve criar uma instância da classe Perceptron. É necessário passar dois argumentos para o construtor: o tamanho do vetor de entrada e a taxa de aprendizado (learning rate). O tamanho do vetor de entrada é o número de características que o seu conjunto de dados possui.</sub>
-</br>
+</br></br>
 <p>Exemplo: 
   <strong><sub>const perceptron = new Perceptron(inputSize, learningRate);</sub></strong></p>
 </br>
@@ -18,7 +18,7 @@
 <h1>Métodos</h1>
 <sub><strong>predict(inputs)</strong>
 O método predict recebe um vetor de entrada inputs e retorna a classe prevista pelo Perceptron. A classe prevista é calculada pela soma ponderada dos pesos associados a cada entrada e comparada a um limite, que é o bias. A função de ativação utilizada é a função degrau, que retorna 1 se o limite é ultrapassado e 0 caso contrário.</sub>
-</br>
+</br></br>
 <p>Exemplo: 
 <strong>
 <p><sub>const inputs = [0, 1, 0.5, 1.5];</sub></p>
@@ -30,9 +30,8 @@ O método predict recebe um vetor de entrada inputs e retorna a classe prevista 
 <p>Exemplo:
   <strong>
 <sub>
-  <p>const inputs = [0, 1, 0.5, 1.5];</p>
-  <p>const label = 1;</p>
-  <p>perceptron.train(inputs, label);</p>
-</sub>
+  <p>const inputs = [0, 1, 0.5, 1.5];</p></sub>
+    <sub>  <p>const label = 1;</p></sub>
+<sub>  <p>perceptron.train(inputs, label);</p></sub>
 </strong>
 </p>
