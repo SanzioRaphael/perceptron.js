@@ -36,3 +36,30 @@ O método predict recebe um vetor de entrada inputs e retorna a classe prevista 
 <sub><p>- weights: um vetor de pesos associados a cada entrada.</p></sub>
 <sub><p>- bias: um valor adicionado à soma ponderada das entradas.</p></sub>
 <sub><p>- learningRate: a taxa de aprendizado utilizada para atualizar os pesos.</p></sub>
+</br></br>
+<h1>Exemplo de uso</h1>
+<p><sub>A seguir, um exemplo de utilização da biblioteca Perceptron para classificar o conjunto de dados Iris em duas classes: Iris setosa e Iris versicolor.</sub></p>
+</br></br>
+<p><sub>const perceptron = new Perceptron(4, 0.1);</sub></p>
+<p><sub>// Dados de treinamento
+const irisData = [
+  { inputs: [5.1, 3.5, 1.4, 0.2], label: 1 }, // Iris setosa
+  { inputs: [4.9, 3.0, 1.4, 0.2], label: 1 }, // Iris setosa
+  { inputs: [7.0, 3.2, 4.7, 1.4], label: 0 }, // Iris versicolor
+  { inputs: [6.4, 3.2, 4.5, 1.5], label: 0 }, // Iris versicolor
+  ];</sub></p>
+  </br>
+  <p><sub>
+ // Teste do Perceptron
+for (let i = 0; i < irisTest.length; i++) {
+const prediction = perceptron.predict(irisTest[i]);
+console.log(Prediction: ${prediction});
+}
+  </sub></p>
+  </br></br></br>
+  <h3>
+Neste exemplo, foram utilizados quatro atributos (comprimento da sépala, largura da sépala, comprimento da pétala e largura da pétala) para treinar o Perceptron a classificar duas espécies de Iris: setosa e versicolor. Os dados de treinamento foram passados para o método `train`, que atualizou os pesos do Perceptron. Em seguida, foram utilizados dados de teste para avaliar o desempenho do Perceptron. 
+
+## Considerações finais
+A biblioteca Perceptron é uma implementação simples do algoritmo de aprendizado de máquina para classificação binária. Ela pode ser utilizada como ponto de partida para construir algoritmos mais complexos, como redes neurais multicamadas. A taxa de aprendizado é um parâmetro importante que deve ser ajustado de acordo com o problema em questão. Caso a taxa de aprendizado seja muito alta, os pesos podem oscilar demasiadamente e impedir a convergência do algoritmo. Por outro lado, caso a taxa de aprendizado seja muito baixa, o treinamento pode demorar demasiadamente para convergir.
+</h3>
