@@ -30,3 +30,9 @@ O método predict recebe um vetor de entrada inputs e retorna a classe prevista 
 <sub><p>const inputs = [0, 1, 0.5, 1.5];</p></sub>
 <sub><p>const label = 1;</p></sub>
 <sub><p>perceptron.train(inputs, label);</p></sub>
+</br></br>
+<h1>Propriedades</h1>
+<p><sub>O Perceptron possui três propriedades:</sub></p>
+<sub><p>- weights: um vetor de pesos associados a cada entrada.</p></sub>
+<sub><p>- bias: um valor adicionado à soma ponderada das entradas.</p></sub>
+<sub><p>- learningRate: a taxa de aprendizado utilizada para atualizar os pesos.</p></sub>
